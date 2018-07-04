@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col" align="center">
+            <table style="height: 100%;">
+                <h1>Crystal Collector</h1><br>
+                <h2>Instructions:</h2><br>
+                <p> You will be given a random number at the start of the game, you're goal is to reach that number exactly.
+                    The target number is the large green number between the crystals, your current number is beneath it,
+                    in blue. Each crystal is also assigned a random value at the beginning of the game, and each time you
+                    click one, it's value is added to your current number. You can purchase a special gem whose value is
+                    always one, it's on sale for $19.99!</p>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col" align="center">
+        <table style="height: 100%;">
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <h1 id="winLose"></h1>
+                    </td>
+                    <td>
+                        <img src="assets/images/crystal1stop.png" class="img-thumbnail" id="crystal1">
+                    </td>
+                    <td>
+                        <p style="float:left;" id="wins"></p>
+                        <p style="float:right;" id="losses"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/images/crystal2stop.png" class="img-thumbnail" id="crystal2">
+                    </td>
+                    <td align="center">
+                        <h1 id="targetNumber" style="color:green;"></h1>
+                        <br>
+                        <h2 id="playerSum" style="color:blue;"></h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/crystal3stop.png" class="img-thumbnail" id="crystal3">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <img src="assets/images/crystal4stop.png" class="img-thumbnail" id="crystal4">
+                    </td>
+                    <td align="center">
+                        <img src="" id="crystal5">
+                        <button id="giveMeMoney">Buy Special Gem Now!</button>
+                        </img>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
