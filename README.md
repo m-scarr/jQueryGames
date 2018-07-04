@@ -1,6 +1,7 @@
 # jQuery Games
 
 These were assignments, I added a few mechanics/ features to them to spice them up.
+<br><br>
 
 ## Hangman
 
@@ -9,7 +10,7 @@ This only features 3 questions, but as a bonus, I had the app draw the man that 
   ### What's Next?
   
   I want to change the data structure of questions and answers, and I could cut the lines of code in half if I looked into it.
-  
+  <br><br>
   
   
 ## Crystal Collector
@@ -18,7 +19,7 @@ The instructions for this game are on the page with it. I made this one with boo
 
   ### What's Next?
   I want to tidy up the code a bit, but it's mostly done.
-  
+  <br><br>
   
   
 ## Psychic Game
