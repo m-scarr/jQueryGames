@@ -10,12 +10,16 @@ This only features 3 questions, but as a bonus, I had the app draw the man that 
   
   I want to change the data structure of questions and answers, and I could cut the lines of code in half if I looked into it.
   
+  
+  
 ## Crystal Collector
 
 The instructions for this game are on the page with it. I made this one with bootstrap, and decided to add a `pay-to-win` mechanic as a joke, enjoy!
 
   ### What's Next?
   I want to tidy up the code a bit, but it's mostly done.
+  
+  
   
 ## Psychic Game
 You have 7 tries to guess what letter the computer has thought up! Good luck!
